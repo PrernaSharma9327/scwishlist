@@ -11,3 +11,210 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Header styles */
+.header {
+  background-color:#f6a8c6c5; /* Darker pink for the header */
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+
+}
+.search-container {
+  position: relative;
+}
+.search-bar {
+  padding: 5px 30px 5px 10px; /* Add padding to the right for the icon */
+  font-size: 14px;
+  box-shadow: #000000;
+  border: 1px solid #000000;
+  border-radius: 8px;
+  width: 400px; /* Adjust the width as needed */
+  background-color: #ffffff; /* Match the header's background color */
+  color: #fff; /* Optional: Change text color to be readable */
+}
+
+.search-bar::placeholder {
+  color: #000000; /* Optional: Change placeholder text color to be readable */
+}
+
+
+.search-icon {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  color: #000000;
+}
+
+
+.search-bar svg {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.header-icons {
+  display: flex;
+  gap: 15px;
+}
+
+.icon {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* Navbar styles */
+
+.navbar {
+  height: 20px;
+  display: flex;
+  justify-content: space-around;
+  background-color: #fdd8e5; /* Light pink background */
+  padding: 10px 10px; /* Add padding for spacing */
+}
+
+.nav-button {
+  text-decoration: none;
+  color: #333; /* Text color for buttons */
+  padding:0px 20px; /* Button padding */
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px; /* Font size for buttons */
+}
+
+.nav-button:hover {
+  color: #000; /* Change color on hover */
+  background-color: #ffabc7; /* Slightly darker pink on hover */
+  border-radius: 6px; /* Optional: rounded corners */
+  padding-top: 3px;
+}
+
+
+
+/* Footer styles */
+.footer {
+  background-color: #fdd8e5;
+  padding: 40px 20px;
+  text-align: left;
+  border-top: 1px solid #ccc;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  min-width: 200px;
+  margin: 20px;
+}
+
+.footer-section h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.footer-section a {
+  display: block;
+  margin: 5px 0;
+  text-decoration: none;
+  color: #666;
+}
+
+.footer-subscribe {
+  flex: 1;
+  min-width: 300px;
+  margin: 20px;
+}
+
+.footer-subscribe h4 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+.footer-subscribe input {
+  width: 70%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.footer-subscribe button {
+  padding: 10px 15px;
+  margin-top: 7px;
+  margin-left: 3px;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.footer-social {
+  margin-top: 10px;
+}
+
+.footer-social a {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #666;
+  font-size: 24px;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  margin-top: 20px;
+}
+
+.footer-bottom p {
+  margin: 0;
+  color: #666;
+}
+
+.footer-language {
+  display: flex;
+  align-items: center;
+}
+
+.footer-language select {
+  margin-left: 10px;
+  padding: 5px;
+}
+.social-icon.facebook {
+  color: #3b5998; /* Facebook blue */
+}
+
+.social-icon.twitter {
+  color: #1da1f2; /* Twitter blue */
+}
+
+.social-icon.instagram {
+  color: #e4405f; /* Instagram pink */
+}
+
+.social-icon.youtube {
+  color: #ff0000; /* YouTube red */
+}
+
+
